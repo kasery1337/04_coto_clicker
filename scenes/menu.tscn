@@ -1,0 +1,343 @@
+[gd_scene format=4 uid="uid://ej53w0lna7e8"]
+
+[ext_resource type="Script" uid="uid://g8qxfxafymd3" path="res://scenes/menu.gd" id="1_mhnvy"]
+[ext_resource type="Texture2D" uid="uid://b7aht4piritmm" path="res://assets/grass.png" id="1_yqeox"]
+[ext_resource type="Theme" uid="uid://cw57gemhoeqp" path="res://assets/new_theme.tres" id="2_con2f"]
+[ext_resource type="FontFile" uid="uid://5ksdmik1bmbj" path="res://assets/ComicoroRu_0.ttf" id="3_mhnvy"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vjb58"]
+texture = ExtResource("1_yqeox")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+6:11/0 = 0
+7:11/0 = 0
+0:12/0 = 0
+1:12/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+5:12/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+0:13/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+6:13/0 = 0
+7:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+0:14/0 = 0
+1:14/0 = 0
+2:14/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+7:14/0 = 0
+8:14/0 = 0
+9:14/0 = 0
+0:15/0 = 0
+1:15/0 = 0
+2:15/0 = 0
+3:15/0 = 0
+4:15/0 = 0
+5:15/0 = 0
+6:15/0 = 0
+7:15/0 = 0
+8:15/0 = 0
+9:15/0 = 0
+0:16/0 = 0
+1:16/0 = 0
+2:16/0 = 0
+3:16/0 = 0
+4:16/0 = 0
+5:16/0 = 0
+6:16/0 = 0
+7:16/0 = 0
+8:16/0 = 0
+9:16/0 = 0
+0:17/0 = 0
+1:17/0 = 0
+2:17/0 = 0
+3:17/0 = 0
+4:17/0 = 0
+5:17/0 = 0
+6:17/0 = 0
+7:17/0 = 0
+8:17/0 = 0
+9:17/0 = 0
+0:18/0 = 0
+1:18/0 = 0
+2:18/0 = 0
+3:18/0 = 0
+4:18/0 = 0
+5:18/0 = 0
+6:18/0 = 0
+7:18/0 = 0
+8:18/0 = 0
+9:18/0 = 0
+0:19/0 = 0
+1:19/0 = 0
+2:19/0 = 0
+3:19/0 = 0
+4:19/0 = 0
+5:19/0 = 0
+6:19/0 = 0
+7:19/0 = 0
+8:19/0 = 0
+9:19/0 = 0
+0:20/0 = 0
+1:20/0 = 0
+2:20/0 = 0
+3:20/0 = 0
+4:20/0 = 0
+5:20/0 = 0
+6:20/0 = 0
+7:20/0 = 0
+8:20/0 = 0
+9:20/0 = 0
+0:21/0 = 0
+1:21/0 = 0
+2:21/0 = 0
+3:21/0 = 0
+4:21/0 = 0
+5:21/0 = 0
+6:21/0 = 0
+7:21/0 = 0
+8:21/0 = 0
+9:21/0 = 0
+0:22/0 = 0
+1:22/0 = 0
+2:22/0 = 0
+3:22/0 = 0
+4:22/0 = 0
+5:22/0 = 0
+6:22/0 = 0
+7:22/0 = 0
+8:22/0 = 0
+9:22/0 = 0
+0:23/0 = 0
+1:23/0 = 0
+2:23/0 = 0
+3:23/0 = 0
+4:23/0 = 0
+5:23/0 = 0
+6:23/0 = 0
+7:23/0 = 0
+8:23/0 = 0
+9:23/0 = 0
+0:24/0 = 0
+1:24/0 = 0
+2:24/0 = 0
+3:24/0 = 0
+4:24/0 = 0
+5:24/0 = 0
+6:24/0 = 0
+7:24/0 = 0
+8:24/0 = 0
+9:24/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_con2f"]
+sources/0 = SubResource("TileSetAtlasSource_vjb58")
+
+[sub_resource type="Theme" id="Theme_2kxl4"]
+default_font = ExtResource("3_mhnvy")
+
+[node name="Menu" type="Control" unique_id=874298694]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mhnvy")
+
+[node name="Background" type="TileMapLayer" parent="." unique_id=1963433697]
+tile_map_data = PackedByteArray("AAD+//7/AAAGABgAAAD+////AAAAABMAAAD+/wAAAAAAABgAAAD+/wEAAAADABIAAAD+/wIAAAABABUAAAD+/wMAAAAIABIAAAD+/wQAAAADABIAAAD+/wUAAAAIAA8AAAD+/wYAAAAIABUAAAD+/wcAAAADABUAAAD+/wgAAAAIAA0AAAD+/wkAAAAHABMAAAD+/woAAAAJABQAAAD+/wsAAAACABgAAAD+/wwAAAADAA0AAAD+/w0AAAAIAA8AAAD+/w4AAAAFAA0AAAD///7/AAAGAA0AAAD/////AAABABEAAAD//wAAAAAAABMAAAD//wEAAAACABQAAAD//wIAAAAJABUAAAD//wMAAAABABAAAAD//wQAAAAGABgAAAD//wUAAAABABIAAAD//wYAAAAGAA0AAAD//wcAAAAHABMAAAD//wgAAAAIAA0AAAD//wkAAAAEAA4AAAD//woAAAAIAA0AAAD//wsAAAACAA0AAAD//wwAAAADABUAAAD//w0AAAAAABgAAAD//w4AAAAFABUAAAAAAP7/AAAGABAAAAAAAP//AAAEABAAAAAAAAAAAAAJAA4AAAAAAAEAAAAGABIAAAAAAAIAAAADABYAAAAAAAMAAAAEAA0AAAAAAAQAAAABABAAAAAAAAUAAAADABEAAAAAAAYAAAAJABIAAAAAAAcAAAAFAA4AAAAAAAgAAAADABgAAAAAAAkAAAACABEAAAAAAAoAAAAJABQAAAAAAAsAAAAGABEAAAAAAAwAAAAFABYAAAAAAA0AAAAJABQAAAAAAA4AAAAHABYAAAABAP7/AAABABAAAAABAP//AAAAAA4AAAABAAAAAAAEABAAAAABAAEAAAAJABMAAAABAAIAAAAFABcAAAABAAMAAAAJABIAAAABAAQAAAACAA0AAAABAAUAAAAAABQAAAABAAYAAAAJABgAAAABAAcAAAAEABIAAAABAAgAAAAJABcAAAABAAkAAAACABAAAAABAAoAAAAGABgAAAABAAsAAAAGABYAAAABAAwAAAAFAA4AAAABAA0AAAAEABAAAAABAA4AAAAEABQAAAACAP7/AAABABMAAAACAP//AAAFABUAAAACAAAAAAAIABAAAAACAAEAAAACABgAAAACAAIAAAAIABQAAAACAAMAAAAAABgAAAACAAQAAAAFAA4AAAACAAUAAAAGAA0AAAACAAYAAAADAA0AAAACAAcAAAAIABYAAAACAAgAAAADABMAAAACAAkAAAAFABYAAAACAAoAAAAEAA0AAAACAAsAAAADABQAAAACAAwAAAAJABQAAAACAA0AAAABABQAAAACAA4AAAAFAA0AAAADAP7/AAAHABUAAAADAP//AAACABAAAAADAAAAAAADABMAAAADAAEAAAAEABQAAAADAAIAAAAIABcAAAADAAMAAAAIABcAAAADAAQAAAAIABEAAAADAAUAAAADAA0AAAADAAYAAAABABYAAAADAAcAAAAJABIAAAADAAgAAAAFAA4AAAADAAkAAAACABAAAAADAAoAAAAHAA8AAAADAAsAAAAGABMAAAADAAwAAAAHABcAAAADAA0AAAAFAA8AAAADAA4AAAACAA8AAAAEAP7/AAAHAA4AAAAEAP//AAAEAA8AAAAEAAAAAAAAABIAAAAEAAEAAAABABcAAAAEAAIAAAAIABcAAAAEAAMAAAAIABgAAAAEAAQAAAABABAAAAAEAAUAAAABABUAAAAEAAYAAAAGABcAAAAEAAcAAAAAABIAAAAEAAgAAAAEAA0AAAAEAAkAAAAHAA8AAAAEAAoAAAAEABQAAAAEAAsAAAAAAA0AAAAEAAwAAAADAA4AAAAEAA0AAAAHAA4AAAAEAA4AAAACABUAAAAFAP7/AAAIABAAAAAFAP//AAAJABcAAAAFAAAAAAAGAA0AAAAFAAEAAAAAAA4AAAAFAAIAAAAIABUAAAAFAAMAAAACABEAAAAFAAQAAAAIABUAAAAFAAUAAAAEABAAAAAFAAYAAAAIABQAAAAFAAcAAAACABIAAAAFAAgAAAACABQAAAAFAAkAAAAAABUAAAAFAAoAAAADABIAAAAFAAsAAAAJABIAAAAFAAwAAAAFABEAAAAFAA0AAAADABQAAAAFAA4AAAAAABQAAAAGAP7/AAAEABUAAAAGAP//AAAEAA8AAAAGAAAAAAAGAA8AAAAGAAEAAAADABQAAAAGAAIAAAAFABgAAAAGAAMAAAAEABQAAAAGAAQAAAADABMAAAAGAAUAAAAAAA8AAAAGAAYAAAAIABAAAAAGAAcAAAAAABEAAAAGAAgAAAABABMAAAAGAAkAAAABAA0AAAAGAAoAAAAJABYAAAAGAAsAAAAEABAAAAAGAAwAAAADABQAAAAGAA0AAAAEABAAAAAGAA4AAAAGABMAAAAHAP7/AAAAABEAAAAHAP//AAABABgAAAAHAAAAAAAAABcAAAAHAAEAAAAEABUAAAAHAAIAAAADABEAAAAHAAMAAAABABAAAAAHAAQAAAAGABYAAAAHAAUAAAAEABAAAAAHAAYAAAABABIAAAAHAAcAAAAFABgAAAAHAAgAAAAHAA8AAAAHAAkAAAAAABQAAAAHAAoAAAAAABAAAAAHAAsAAAAFAA8AAAAHAAwAAAACABAAAAAHAA0AAAADABQAAAAHAA4AAAAEABQAAAAIAP7/AAAGABEAAAAIAP//AAAIABAAAAAIAAAAAAAIAA0AAAAIAAEAAAAFABcAAAAIAAIAAAAJABQAAAAIAAMAAAADABEAAAAIAAQAAAAIABMAAAAIAAUAAAAJABEAAAAIAAYAAAAGAA0AAAAIAAcAAAAHABgAAAAIAAgAAAABABAAAAAIAAkAAAABABcAAAAIAAoAAAAEABgAAAAIAAsAAAAIABEAAAAIAAwAAAAFAA8AAAAIAA0AAAADABEAAAAIAA4AAAAFABQAAAA=")
+tile_set = SubResource("TileSet_con2f")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1868342392]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=941230126]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="HBoxContainerclick" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1446312457]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/VBoxContainer/HBoxContainerclick" unique_id=72965251]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("2_con2f")
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainerclick/PanelContainer" unique_id=1921575704]
+layout_mode = 2
+theme = SubResource("Theme_2kxl4")
+text = "Кликер"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1578142673]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=981998813]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_con2f")
+text = "Старт"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=689962255]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer2" unique_id=420096261]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_con2f")
+text = "Сохранить"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=766373476]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer3" unique_id=1968373649]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_con2f")
+text = "Продолжить"
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1973477884]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer4" unique_id=1376729633]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_con2f")
+text = "Выйти"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/Button" to="." method="_on_button_start_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer2/Button" to="." method="_on_save_and_exit_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer3/Button" to="." method="_on_load_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer4/Button" to="." method="_on_exit_button_pressed"]

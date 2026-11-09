@@ -1,0 +1,489 @@
+[gd_scene format=4 uid="uid://dlrrefhsg60lt"]
+
+[ext_resource type="Theme" uid="uid://cw57gemhoeqp" path="res://assets/new_theme.tres" id="1_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://b7aht4piritmm" path="res://assets/grass.png" id="2_sugp2"]
+[ext_resource type="Script" uid="uid://b2pejl5gjtwhm" path="res://scripts/main.gd" id="2_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://bd12kgk3ggijw" path="res://assets/Sprite.png" id="3_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://d0oaknywbyswc" path="res://assets/Cat.png" id="4_tbgi4"]
+[ext_resource type="AudioStream" uid="uid://3xeuyhvyjyvu" path="res://assets/blup_1.wav" id="6_tefeu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tbgi4"]
+atlas = ExtResource("3_jyhfs")
+region = Rect2(581, 68, 7, 7)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tbgi4"]
+texture = ExtResource("2_sugp2")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+6:11/0 = 0
+7:11/0 = 0
+0:12/0 = 0
+1:12/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+5:12/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+0:13/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+6:13/0 = 0
+7:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+0:14/0 = 0
+1:14/0 = 0
+2:14/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+7:14/0 = 0
+8:14/0 = 0
+9:14/0 = 0
+0:15/0 = 0
+1:15/0 = 0
+2:15/0 = 0
+3:15/0 = 0
+4:15/0 = 0
+5:15/0 = 0
+6:15/0 = 0
+7:15/0 = 0
+8:15/0 = 0
+9:15/0 = 0
+0:16/0 = 0
+1:16/0 = 0
+2:16/0 = 0
+3:16/0 = 0
+4:16/0 = 0
+5:16/0 = 0
+6:16/0 = 0
+7:16/0 = 0
+8:16/0 = 0
+9:16/0 = 0
+0:17/0 = 0
+1:17/0 = 0
+2:17/0 = 0
+3:17/0 = 0
+4:17/0 = 0
+5:17/0 = 0
+6:17/0 = 0
+7:17/0 = 0
+8:17/0 = 0
+9:17/0 = 0
+0:18/0 = 0
+1:18/0 = 0
+2:18/0 = 0
+3:18/0 = 0
+4:18/0 = 0
+5:18/0 = 0
+6:18/0 = 0
+7:18/0 = 0
+8:18/0 = 0
+9:18/0 = 0
+0:19/0 = 0
+1:19/0 = 0
+2:19/0 = 0
+3:19/0 = 0
+4:19/0 = 0
+5:19/0 = 0
+6:19/0 = 0
+7:19/0 = 0
+8:19/0 = 0
+9:19/0 = 0
+0:20/0 = 0
+1:20/0 = 0
+2:20/0 = 0
+3:20/0 = 0
+4:20/0 = 0
+5:20/0 = 0
+6:20/0 = 0
+7:20/0 = 0
+8:20/0 = 0
+9:20/0 = 0
+0:21/0 = 0
+1:21/0 = 0
+2:21/0 = 0
+3:21/0 = 0
+4:21/0 = 0
+5:21/0 = 0
+6:21/0 = 0
+7:21/0 = 0
+8:21/0 = 0
+9:21/0 = 0
+0:22/0 = 0
+1:22/0 = 0
+2:22/0 = 0
+3:22/0 = 0
+4:22/0 = 0
+5:22/0 = 0
+6:22/0 = 0
+7:22/0 = 0
+8:22/0 = 0
+9:22/0 = 0
+0:23/0 = 0
+1:23/0 = 0
+2:23/0 = 0
+3:23/0 = 0
+4:23/0 = 0
+5:23/0 = 0
+6:23/0 = 0
+7:23/0 = 0
+8:23/0 = 0
+9:23/0 = 0
+0:24/0 = 0
+1:24/0 = 0
+2:24/0 = 0
+3:24/0 = 0
+4:24/0 = 0
+5:24/0 = 0
+6:24/0 = 0
+7:24/0 = 0
+8:24/0 = 0
+9:24/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_75vm7"]
+sources/0 = SubResource("TileSetAtlasSource_tbgi4")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xdv0r"]
+atlas = ExtResource("3_jyhfs")
+region = Rect2(552, 131, 35, 41)
+
+[sub_resource type="Theme" id="Theme_6rbnw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jbj1t"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(0, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_muem4"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(32, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dp3eg"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(0, 224, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ld40"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(32, 224, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tefeu"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o6xl0"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tipki"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85g3d"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_choun"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(96, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ya4ey"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(128, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eb6dy"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(0, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_trceg"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(32, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a8y0u"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(64, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jkv2x"]
+atlas = ExtResource("4_tbgi4")
+region = Rect2(96, 96, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x3j2a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jbj1t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_muem4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dp3eg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ld40")
+}],
+"loop": 1,
+"name": &"happy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tefeu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o6xl0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tipki")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85g3d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_choun")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ya4ey")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eb6dy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_trceg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a8y0u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jkv2x")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Main" type="Control" unique_id=978380408 node_paths=PackedStringArray("click_sound", "coins_label", "anim", "timer_coin", "level_ui")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_0wfyh")
+script = ExtResource("2_tbgi4")
+click_sound = NodePath("AudioStreamPlayer2D")
+coins_label = NodePath("MarginContainer/VBoxContainer/CoinsControl/CoinsLabel")
+anim = NodePath("MarginContainer/VBoxContainer/CatPanel/CatAnimatedSprite2D")
+timer_coin = NodePath("Timer")
+level_ui = NodePath("MarginContainer/VBoxContainer/CoinsControl/LevelHBoxContainer")
+level_ui_texture = SubResource("AtlasTexture_tbgi4")
+
+[node name="Background" type="TileMapLayer" parent="." unique_id=1338193185]
+tile_map_data = PackedByteArray("AAD+//7/AAAGABgAAAD+////AAAAABMAAAD+/wAAAAAAABgAAAD+/wEAAAADABIAAAD+/wIAAAABABUAAAD+/wMAAAAIABIAAAD+/wQAAAADABIAAAD+/wUAAAAIAA8AAAD+/wYAAAAIABUAAAD+/wcAAAADABUAAAD+/wgAAAAIAA0AAAD+/wkAAAAHABMAAAD+/woAAAAJABQAAAD+/wsAAAACABgAAAD+/wwAAAADAA0AAAD+/w0AAAAIAA8AAAD+/w4AAAAFAA0AAAD///7/AAAGAA0AAAD/////AAABABEAAAD//wAAAAAAABMAAAD//wEAAAACABQAAAD//wIAAAAJABUAAAD//wMAAAABABAAAAD//wQAAAAGABgAAAD//wUAAAABABIAAAD//wYAAAAGAA0AAAD//wcAAAAHABMAAAD//wgAAAAIAA0AAAD//wkAAAAEAA4AAAD//woAAAAIAA0AAAD//wsAAAACAA0AAAD//wwAAAADABUAAAD//w0AAAAAABgAAAD//w4AAAAFABUAAAAAAP7/AAAGABAAAAAAAP//AAAEABAAAAAAAAAAAAAJAA4AAAAAAAEAAAAGABIAAAAAAAIAAAADABYAAAAAAAMAAAAEAA0AAAAAAAQAAAABABAAAAAAAAUAAAADABEAAAAAAAYAAAAJABIAAAAAAAcAAAAFAA4AAAAAAAgAAAADABgAAAAAAAkAAAACABEAAAAAAAoAAAAJABQAAAAAAAsAAAAGABEAAAAAAAwAAAAFABYAAAAAAA0AAAAJABQAAAAAAA4AAAAHABYAAAABAP7/AAABABAAAAABAP//AAAAAA4AAAABAAAAAAAEABAAAAABAAEAAAAJABMAAAABAAIAAAAFABcAAAABAAMAAAAJABIAAAABAAQAAAACAA0AAAABAAUAAAAAABQAAAABAAYAAAAJABgAAAABAAcAAAAEABIAAAABAAgAAAAJABcAAAABAAkAAAACABAAAAABAAoAAAAGABgAAAABAAsAAAAGABYAAAABAAwAAAAFAA4AAAABAA0AAAAEABAAAAABAA4AAAAEABQAAAACAP7/AAABABMAAAACAP//AAAFABUAAAACAAAAAAAIABAAAAACAAEAAAACABgAAAACAAIAAAAIABQAAAACAAMAAAAAABgAAAACAAQAAAAFAA4AAAACAAUAAAAGAA0AAAACAAYAAAADAA0AAAACAAcAAAAIABYAAAACAAgAAAADABMAAAACAAkAAAAFABYAAAACAAoAAAAEAA0AAAACAAsAAAADABQAAAACAAwAAAAJABQAAAACAA0AAAABABQAAAACAA4AAAAFAA0AAAADAP7/AAAHABUAAAADAP//AAACABAAAAADAAAAAAADABMAAAADAAEAAAAEABQAAAADAAIAAAAIABcAAAADAAMAAAAIABcAAAADAAQAAAAIABEAAAADAAUAAAADAA0AAAADAAYAAAABABYAAAADAAcAAAAJABIAAAADAAgAAAAFAA4AAAADAAkAAAACABAAAAADAAoAAAAHAA8AAAADAAsAAAAGABMAAAADAAwAAAAHABcAAAADAA0AAAAFAA8AAAADAA4AAAACAA8AAAAEAP7/AAAHAA4AAAAEAP//AAAEAA8AAAAEAAAAAAAAABIAAAAEAAEAAAABABcAAAAEAAIAAAAIABcAAAAEAAMAAAAIABgAAAAEAAQAAAABABAAAAAEAAUAAAABABUAAAAEAAYAAAAGABcAAAAEAAcAAAAAABIAAAAEAAgAAAAEAA0AAAAEAAkAAAAHAA8AAAAEAAoAAAAEABQAAAAEAAsAAAAAAA0AAAAEAAwAAAADAA4AAAAEAA0AAAAHAA4AAAAEAA4AAAACABUAAAAFAP7/AAAIABAAAAAFAP//AAAJABcAAAAFAAAAAAAGAA0AAAAFAAEAAAAAAA4AAAAFAAIAAAAIABUAAAAFAAMAAAACABEAAAAFAAQAAAAIABUAAAAFAAUAAAAEABAAAAAFAAYAAAAIABQAAAAFAAcAAAACABIAAAAFAAgAAAACABQAAAAFAAkAAAAAABUAAAAFAAoAAAADABIAAAAFAAsAAAAJABIAAAAFAAwAAAAFABEAAAAFAA0AAAADABQAAAAFAA4AAAAAABQAAAAGAP7/AAAEABUAAAAGAP//AAAEAA8AAAAGAAAAAAAGAA8AAAAGAAEAAAADABQAAAAGAAIAAAAFABgAAAAGAAMAAAAEABQAAAAGAAQAAAADABMAAAAGAAUAAAAAAA8AAAAGAAYAAAAIABAAAAAGAAcAAAAAABEAAAAGAAgAAAABABMAAAAGAAkAAAABAA0AAAAGAAoAAAAJABYAAAAGAAsAAAAEABAAAAAGAAwAAAADABQAAAAGAA0AAAAEABAAAAAGAA4AAAAGABMAAAAHAP7/AAAAABEAAAAHAP//AAABABgAAAAHAAAAAAAAABcAAAAHAAEAAAAEABUAAAAHAAIAAAADABEAAAAHAAMAAAABABAAAAAHAAQAAAAGABYAAAAHAAUAAAAEABAAAAAHAAYAAAABABIAAAAHAAcAAAAFABgAAAAHAAgAAAAHAA8AAAAHAAkAAAAAABQAAAAHAAoAAAAAABAAAAAHAAsAAAAFAA8AAAAHAAwAAAACABAAAAAHAA0AAAADABQAAAAHAA4AAAAEABQAAAAIAP7/AAAGABEAAAAIAP//AAAIABAAAAAIAAAAAAAIAA0AAAAIAAEAAAAFABcAAAAIAAIAAAAJABQAAAAIAAMAAAADABEAAAAIAAQAAAAIABMAAAAIAAUAAAAJABEAAAAIAAYAAAAGAA0AAAAIAAcAAAAHABgAAAAIAAgAAAABABAAAAAIAAkAAAABABcAAAAIAAoAAAAEABgAAAAIAAsAAAAIABEAAAAIAAwAAAAFAA8AAAAIAA0AAAADABEAAAAIAA4AAAAFABQAAAA=")
+tile_set = SubResource("TileSet_75vm7")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=613379544]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=502501357]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="CoinsControl" type="Control" parent="MarginContainer/VBoxContainer" unique_id=626477593]
+custom_minimum_size = Vector2(35, 35)
+layout_mode = 2
+
+[node name="CoinAndLevelTextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/CoinsControl" unique_id=1399164046]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -19.5
+offset_top = -24.5
+offset_right = 17.5
+offset_bottom = 16.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("AtlasTexture_xdv0r")
+
+[node name="LevelHBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/CoinsControl" unique_id=1836528471]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -15.0
+offset_top = -2.0
+offset_right = 17.0
+offset_bottom = 8.0
+grow_horizontal = 2
+
+[node name="CoinsLabel" type="Label" parent="MarginContainer/VBoxContainer/CoinsControl" unique_id=1633874105]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 18.0
+offset_right = 53.0
+offset_bottom = 33.0
+text = "0"
+
+[node name="CatPanel" type="PanelContainer" parent="MarginContainer/VBoxContainer" unique_id=1546335252]
+custom_minimum_size = Vector2(65, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = SubResource("Theme_6rbnw")
+
+[node name="CatAnimatedSprite2D" type="AnimatedSprite2D" parent="MarginContainer/VBoxContainer/CatPanel" unique_id=455196488]
+position = Vector2(33, 31)
+scale = Vector2(1.59375, 1.65625)
+sprite_frames = SubResource("SpriteFrames_x3j2a")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="ClickButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1063260484]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Нажми"
+
+[node name="ShopButton" type="Button" parent="MarginContainer" unique_id=1009357426]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_type_variation = &"Shop"
+
+[node name="PauseButton" type="Button" parent="MarginContainer" unique_id=1230974015]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_type_variation = &"Pause_"
+
+[node name="Timer" type="Timer" parent="." unique_id=1645386391]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="." unique_id=960379349]
+stream = ExtResource("6_tefeu")
+
+[connection signal="animation_finished" from="MarginContainer/VBoxContainer/CatPanel/CatAnimatedSprite2D" to="." method="_on_cat_animated_sprite_2d_animation_finished"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/ClickButton" to="." method="_on_click_button_pressed"]
+[connection signal="pressed" from="MarginContainer/ShopButton" to="." method="_on_shop_button_pressed"]
+[connection signal="pressed" from="MarginContainer/PauseButton" to="." method="_on_pause_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
